@@ -1,0 +1,500 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.4.5/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.4.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babelrc-rollup' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /home/ubuntu/workspace/package.json
+5 warn package.json basic-property-grid@0.1.0 No description
+6 warn package.json basic-property-grid@0.1.0 No repository field.
+7 warn package.json basic-property-grid@0.1.0 No README data
+8 warn package.json basic-property-grid@0.1.0 No license field.
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-cli/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-core/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-loader/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-plugin-transform-runtime/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-preset-es2015/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-runtime/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/http-server/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/react/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/react-dom/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/webpack/package.json
+19 info package.json react@0.11.2 No license field.
+20 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+21 silly cache add args [ 'babelrc-rollup', null ]
+22 verbose cache add spec babelrc-rollup
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'babelrc-rollup',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'babelrc-rollup',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: 'latest',
+23 silly cache add   type: 'tag' }
+24 silly addNamed babelrc-rollup@latest
+25 verbose addNamed "latest" is being treated as a dist-tag for babelrc-rollup
+26 info addNameTag [ 'babelrc-rollup', 'latest' ]
+27 silly mapToRegistry name babelrc-rollup
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'babelrc-rollup',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   name: 'babelrc-rollup',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/babelrc-rollup
+32 verbose addNameTag registry:https://registry.npmjs.org/babelrc-rollup not in flight; fetching
+33 verbose request uri https://registry.npmjs.org/babelrc-rollup
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 8:19:27 AM
+36 verbose request id 9478f8b0ca1530e5
+37 http request GET https://registry.npmjs.org/babelrc-rollup
+38 http 200 https://registry.npmjs.org/babelrc-rollup
+39 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   etag: '"6U2URYUY9ITJJKHOIVOMYAIAI"',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'content-encoding': 'gzip',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'content-length': '3327',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sun, 28 Aug 2016 08:19:28 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   age: '0',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1472372367.610327,VS0,VE838',
+39 verbose headers   vary: 'Accept-Encoding' }
+40 silly get cb [ 200,
+40 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly get     etag: '"6U2URYUY9ITJJKHOIVOMYAIAI"',
+40 silly get     'content-type': 'application/json',
+40 silly get     'content-encoding': 'gzip',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     'content-length': '3327',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     date: 'Sun, 28 Aug 2016 08:19:28 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-hkg6825-HKG',
+40 silly get     'x-cache': 'MISS',
+40 silly get     'x-cache-hits': '0',
+40 silly get     'x-timer': 'S1472372367.610327,VS0,VE838',
+40 silly get     vary: 'Accept-Encoding' } ]
+41 verbose get saving babelrc-rollup to /home/ubuntu/.npm/registry.npmjs.org/babelrc-rollup/.cache.json
+42 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+43 silly addNameTag next cb for babelrc-rollup with tag latest
+44 silly addNamed babelrc-rollup@3.0.0
+45 verbose addNamed "3.0.0" is a plain semver version for babelrc-rollup
+46 silly mapToRegistry name babelrc-rollup
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'babelrc-rollup',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   name: 'babelrc-rollup',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/babelrc-rollup
+51 verbose addRemoteTarball https://registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz not in flight; adding
+52 verbose addRemoteTarball [ 'https://registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz',
+52 verbose addRemoteTarball   'fcecdbe3eb6400cf4e769233c1786a2fafe8b56c' ]
+53 info retry fetch attempt 1 at 8:19:28 AM
+54 info attempt registry request try #1 at 8:19:28 AM
+55 http fetch GET https://registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz
+56 http fetch 200 https://registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz
+57 silly fetchAndShaCheck shasum fcecdbe3eb6400cf4e769233c1786a2fafe8b56c
+58 verbose addTmpTarball /tmp/npm-4921-243edc29/registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz not in flight; adding
+59 verbose addTmpTarball already have metadata; skipping unpack for babelrc-rollup@3.0.0
+60 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+61 silly cache afterAdd babelrc-rollup@3.0.0
+62 verbose afterAdd /home/ubuntu/.npm/babelrc-rollup/3.0.0/package/package.json not in flight; writing
+63 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+64 verbose afterAdd /home/ubuntu/.npm/babelrc-rollup/3.0.0/package/package.json written
+65 silly install resolved [ { name: 'babelrc-rollup',
+65 silly install resolved     description: 'Builds a babel configuration for rollup-plugin-babel by reading .babelrc.',
+65 silly install resolved     main: 'dist/babelrc-rollup.js',
+65 silly install resolved     'jsnext:main': 'dist/babelrc-rollup.mjs',
+65 silly install resolved     scripts:
+65 silly install resolved      { flow: 'flow check',
+65 silly install resolved        build: 'rollup -c',
+65 silly install resolved        pretest: 'npm run flow && npm run bootstrap',
+65 silly install resolved        test: 'mocha',
+65 silly install resolved        bootstrap: './script/bootstrap',
+65 silly install resolved        prepublish: 'npm test',
+65 silly install resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post' },
+65 silly install resolved     repository:
+65 silly install resolved      { type: 'git',
+65 silly install resolved        url: 'git+https://github.com/eventualbuddha/babelrc-rollup.git' },
+65 silly install resolved     keywords: [ 'babel', 'rollup' ],
+65 silly install resolved     files: [ 'dist' ],
+65 silly install resolved     author: { name: 'Brian Donovan', email: 'me@brian-donovan.com' },
+65 silly install resolved     license: 'MIT',
+65 silly install resolved     bugs: { url: 'https://github.com/eventualbuddha/babelrc-rollup/issues' },
+65 silly install resolved     homepage: 'https://github.com/eventualbuddha/babelrc-rollup#readme',
+65 silly install resolved     devDependencies:
+65 silly install resolved      { 'babel-cli': '^6.11.4',
+65 silly install resolved        'babel-plugin-external-helpers': '^6.8.0',
+65 silly install resolved        'babel-plugin-syntax-flow': '^6.13.0',
+65 silly install resolved        'babel-plugin-syntax-object-rest-spread': '^6.13.0',
+65 silly install resolved        'babel-plugin-transform-es2015-parameters': '^6.11.4',
+65 silly install resolved        'babel-plugin-transform-flow-strip-types': '^6.8.0',
+65 silly install resolved        'babel-plugin-transform-object-rest-spread': '^6.8.0',
+65 silly install resolved        'babel-preset-es2015': '^6.13.2',
+65 silly install resolved        'flow-bin': '^0.30.0',
+65 silly install resolved        mocha: '^3.0.2',
+65 silly install resolved        reify: '^0.3.6',
+65 silly install resolved        rollup: '^0.34.7',
+65 silly install resolved        'rollup-plugin-babel': '^2.6.1',
+65 silly install resolved        'semantic-release': '^4.3.5' },
+65 silly install resolved     publishConfig: { registry: 'https://registry.npmjs.org/' },
+65 silly install resolved     dependencies: { resolve: '^1.1.7' },
+65 silly install resolved     version: '3.0.0',
+65 silly install resolved     gitHead: '5cfa3be875cd7cdd2c8250e331136ea5f6e3a034',
+65 silly install resolved     _id: 'babelrc-rollup@3.0.0',
+65 silly install resolved     _shasum: 'fcecdbe3eb6400cf4e769233c1786a2fafe8b56c',
+65 silly install resolved     _from: 'babelrc-rollup@latest',
+65 silly install resolved     _npmVersion: '2.15.9',
+65 silly install resolved     _nodeVersion: '6.3.1',
+65 silly install resolved     _npmUser: { name: 'eventualbuddha', email: 'me@brian-donovan.com' },
+65 silly install resolved     dist:
+65 silly install resolved      { shasum: 'fcecdbe3eb6400cf4e769233c1786a2fafe8b56c',
+65 silly install resolved        tarball: 'https://registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz' },
+65 silly install resolved     maintainers: [ [Object] ],
+65 silly install resolved     _npmOperationalInternal:
+65 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+65 silly install resolved        tmp: 'tmp/babelrc-rollup-3.0.0.tgz_1470699721836_0.7759381248615682' },
+65 silly install resolved     directories: {},
+65 silly install resolved     _resolved: 'https://registry.npmjs.org/babelrc-rollup/-/babelrc-rollup-3.0.0.tgz' } ]
+66 info install babelrc-rollup@3.0.0 into /home/ubuntu/workspace
+67 info installOne babelrc-rollup@3.0.0
+68 verbose installOne of babelrc-rollup to /home/ubuntu/workspace not in flight; installing
+69 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+70 verbose lock using /home/ubuntu/.npm/_locks/babelrc-rollup-1a1dbde6341d414d.lock for /home/ubuntu/workspace/node_modules/babelrc-rollup
+71 silly install write writing babelrc-rollup 3.0.0 to /home/ubuntu/workspace/node_modules/babelrc-rollup
+72 verbose unbuild node_modules/babelrc-rollup
+73 silly gentlyRm /home/ubuntu/workspace/node_modules/babelrc-rollup is being purged from base /home/ubuntu/workspace
+74 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/babelrc-rollup
+75 verbose tar unpack /home/ubuntu/.npm/babelrc-rollup/3.0.0/package.tgz
+76 verbose tar unpacking to /home/ubuntu/workspace/node_modules/babelrc-rollup
+77 silly gentlyRm /home/ubuntu/workspace/node_modules/babelrc-rollup is being purged
+78 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/babelrc-rollup
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+82 silly gunzTarPerm extractEntry README.md
+83 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+84 silly gunzTarPerm extractEntry LICENSE
+85 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+86 silly gunzTarPerm extractEntry dist/babelrc-rollup.js
+87 silly gunzTarPerm modified mode [ 'dist/babelrc-rollup.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry dist/babelrc-rollup.mjs
+89 silly gunzTarPerm modified mode [ 'dist/babelrc-rollup.mjs', 436, 420 ]
+90 verbose write writing to /home/ubuntu/workspace/node_modules/babelrc-rollup/package.json
+91 info preinstall babelrc-rollup@3.0.0
+92 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/babelrc-rollup/package.json
+93 silly prepareForInstallMany adding resolve@^1.1.7 from babelrc-rollup dependencies
+94 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/babelrc-rollup/package.json
+95 silly cache add args [ 'resolve@^1.1.7', null ]
+96 verbose cache add spec resolve@^1.1.7
+97 silly cache add parsed spec Result {
+97 silly cache add   raw: 'resolve@^1.1.7',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'resolve',
+97 silly cache add   rawSpec: '^1.1.7',
+97 silly cache add   spec: '>=1.1.7 <2.0.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed resolve@>=1.1.7 <2.0.0
+99 verbose addNamed ">=1.1.7 <2.0.0" is a valid semver range for resolve
+100 silly addNameRange { name: 'resolve', range: '>=1.1.7 <2.0.0', hasData: false }
+101 silly mapToRegistry name resolve
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'resolve',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   name: 'resolve',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri https://registry.npmjs.org/resolve
+106 verbose addNameRange registry:https://registry.npmjs.org/resolve not in flight; fetching
+107 verbose request uri https://registry.npmjs.org/resolve
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 8:19:29 AM
+110 http request GET https://registry.npmjs.org/resolve
+111 http 200 https://registry.npmjs.org/resolve
+112 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+112 verbose headers   etag: '"JRYGJUMH9LKT7TX2IWA5N8VJ"',
+112 verbose headers   'content-type': 'application/json',
+112 verbose headers   'content-encoding': 'gzip',
+112 verbose headers   'cache-control': 'max-age=300',
+112 verbose headers   'content-length': '6180',
+112 verbose headers   'accept-ranges': 'bytes',
+112 verbose headers   date: 'Sun, 28 Aug 2016 08:19:29 GMT',
+112 verbose headers   via: '1.1 varnish',
+112 verbose headers   age: '117',
+112 verbose headers   connection: 'keep-alive',
+112 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+112 verbose headers   'x-cache': 'HIT',
+112 verbose headers   'x-cache-hits': '2',
+112 verbose headers   'x-timer': 'S1472372369.428634,VS0,VE0',
+112 verbose headers   vary: 'Accept-Encoding' }
+113 silly get cb [ 200,
+113 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+113 silly get     etag: '"JRYGJUMH9LKT7TX2IWA5N8VJ"',
+113 silly get     'content-type': 'application/json',
+113 silly get     'content-encoding': 'gzip',
+113 silly get     'cache-control': 'max-age=300',
+113 silly get     'content-length': '6180',
+113 silly get     'accept-ranges': 'bytes',
+113 silly get     date: 'Sun, 28 Aug 2016 08:19:29 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     age: '117',
+113 silly get     connection: 'keep-alive',
+113 silly get     'x-served-by': 'cache-hkg6825-HKG',
+113 silly get     'x-cache': 'HIT',
+113 silly get     'x-cache-hits': '2',
+113 silly get     'x-timer': 'S1472372369.428634,VS0,VE0',
+113 silly get     vary: 'Accept-Encoding' } ]
+114 verbose get saving resolve to /home/ubuntu/.npm/registry.npmjs.org/resolve/.cache.json
+115 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+116 silly addNameRange number 2 { name: 'resolve', range: '>=1.1.7 <2.0.0', hasData: true }
+117 silly addNameRange versions [ 'resolve',
+117 silly addNameRange   [ '0.0.0',
+117 silly addNameRange     '0.0.1',
+117 silly addNameRange     '0.0.2',
+117 silly addNameRange     '0.0.3',
+117 silly addNameRange     '0.0.4',
+117 silly addNameRange     '0.1.0',
+117 silly addNameRange     '0.1.2',
+117 silly addNameRange     '0.1.3',
+117 silly addNameRange     '0.2.0',
+117 silly addNameRange     '0.2.1',
+117 silly addNameRange     '0.2.2',
+117 silly addNameRange     '0.2.3',
+117 silly addNameRange     '0.2.4',
+117 silly addNameRange     '0.2.5',
+117 silly addNameRange     '0.2.6',
+117 silly addNameRange     '0.2.7',
+117 silly addNameRange     '0.2.8',
+117 silly addNameRange     '0.3.0',
+117 silly addNameRange     '0.3.1',
+117 silly addNameRange     '0.4.0',
+117 silly addNameRange     '0.4.1',
+117 silly addNameRange     '0.4.2',
+117 silly addNameRange     '0.4.3',
+117 silly addNameRange     '0.5.0',
+117 silly addNameRange     '0.5.1',
+117 silly addNameRange     '0.6.0',
+117 silly addNameRange     '0.6.1',
+117 silly addNameRange     '0.6.2',
+117 silly addNameRange     '0.6.3',
+117 silly addNameRange     '0.7.0',
+117 silly addNameRange     '0.7.1',
+117 silly addNameRange     '0.7.2',
+117 silly addNameRange     '0.7.3',
+117 silly addNameRange     '0.7.4',
+117 silly addNameRange     '1.0.0',
+117 silly addNameRange     '1.1.0',
+117 silly addNameRange     '1.1.2',
+117 silly addNameRange     '1.1.3',
+117 silly addNameRange     '1.1.4',
+117 silly addNameRange     '1.1.5',
+117 silly addNameRange     '1.1.6',
+117 silly addNameRange     '1.1.7' ] ]
+118 silly addNamed resolve@1.1.7
+119 verbose addNamed "1.1.7" is a plain semver version for resolve
+120 silly mapToRegistry name resolve
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry data Result {
+123 silly mapToRegistry   raw: 'resolve',
+123 silly mapToRegistry   scope: null,
+123 silly mapToRegistry   name: 'resolve',
+123 silly mapToRegistry   rawSpec: '',
+123 silly mapToRegistry   spec: 'latest',
+123 silly mapToRegistry   type: 'tag' }
+124 silly mapToRegistry uri https://registry.npmjs.org/resolve
+125 verbose addRemoteTarball https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz not in flight; adding
+126 verbose addRemoteTarball [ 'https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz',
+126 verbose addRemoteTarball   '203114d82ad2c5ed9e8e0411b3932875e889e97b' ]
+127 info retry fetch attempt 1 at 8:19:29 AM
+128 info attempt registry request try #1 at 8:19:29 AM
+129 http fetch GET https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+130 http fetch 200 https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+131 silly fetchAndShaCheck shasum 203114d82ad2c5ed9e8e0411b3932875e889e97b
+132 verbose addTmpTarball /tmp/npm-4921-243edc29/registry.npmjs.org/resolve/-/resolve-1.1.7.tgz not in flight; adding
+133 verbose addTmpTarball already have metadata; skipping unpack for resolve@1.1.7
+134 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+135 silly cache afterAdd resolve@1.1.7
+136 verbose afterAdd /home/ubuntu/.npm/resolve/1.1.7/package/package.json not in flight; writing
+137 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+138 verbose afterAdd /home/ubuntu/.npm/resolve/1.1.7/package/package.json written
+139 silly install resolved [ { name: 'resolve',
+139 silly install resolved     description: 'resolve like require.resolve() on behalf of files asynchronously and synchronously',
+139 silly install resolved     version: '1.1.7',
+139 silly install resolved     repository:
+139 silly install resolved      { type: 'git',
+139 silly install resolved        url: 'git://github.com/substack/node-resolve.git' },
+139 silly install resolved     main: 'index.js',
+139 silly install resolved     keywords: [ 'resolve', 'require', 'node', 'module' ],
+139 silly install resolved     scripts: { test: 'tape test/*.js' },
+139 silly install resolved     devDependencies: { tape: '^3.5.0', tap: '0.4.13' },
+139 silly install resolved     license: 'MIT',
+139 silly install resolved     author:
+139 silly install resolved      { name: 'James Halliday',
+139 silly install resolved        email: 'mail@substack.net',
+139 silly install resolved        url: 'http://substack.net' },
+139 silly install resolved     gitHead: 'bb37f0d4400e4d7835375be4bd3ad1264bac3689',
+139 silly install resolved     bugs: { url: 'https://github.com/substack/node-resolve/issues' },
+139 silly install resolved     homepage: 'https://github.com/substack/node-resolve#readme',
+139 silly install resolved     _id: 'resolve@1.1.7',
+139 silly install resolved     _shasum: '203114d82ad2c5ed9e8e0411b3932875e889e97b',
+139 silly install resolved     _from: 'resolve@>=1.1.7 <2.0.0',
+139 silly install resolved     _npmVersion: '3.4.1',
+139 silly install resolved     _nodeVersion: '4.2.1',
+139 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+139 silly install resolved     dist:
+139 silly install resolved      { shasum: '203114d82ad2c5ed9e8e0411b3932875e889e97b',
+139 silly install resolved        tarball: 'https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz' },
+139 silly install resolved     maintainers: [ [Object] ],
+139 silly install resolved     directories: {},
+139 silly install resolved     _resolved: 'https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz' } ]
+140 info install resolve@1.1.7 into /home/ubuntu/workspace/node_modules/babelrc-rollup
+141 info installOne resolve@1.1.7
+142 verbose installOne of resolve to /home/ubuntu/workspace/node_modules/babelrc-rollup not in flight; installing
+143 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+144 verbose lock using /home/ubuntu/.npm/_locks/resolve-a0f0ee5157e2ee78.lock for /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+145 silly install write writing resolve 1.1.7 to /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+146 verbose unbuild node_modules/babelrc-rollup/node_modules/resolve
+147 silly gentlyRm /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve is being purged from base /home/ubuntu/workspace
+148 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+149 verbose tar unpack /home/ubuntu/.npm/resolve/1.1.7/package.tgz
+150 verbose tar unpacking to /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+151 silly gentlyRm /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve is being purged
+152 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+153 silly gunzTarPerm modes [ '755', '644' ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry LICENSE
+156 silly gunzTarPerm extractEntry index.js
+157 silly gunzTarPerm extractEntry .travis.yml
+158 silly gunzTarPerm extractEntry example/async.js
+159 silly gunzTarPerm extractEntry example/sync.js
+160 silly gunzTarPerm extractEntry lib/async.js
+161 silly gunzTarPerm extractEntry lib/caller.js
+162 silly gunzTarPerm extractEntry lib/core.js
+163 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+164 silly gunzTarPerm extractEntry lib/sync.js
+165 silly gunzTarPerm extractEntry lib/core.json
+166 silly gunzTarPerm extractEntry readme.markdown
+167 silly gunzTarPerm extractEntry test/core.js
+168 silly gunzTarPerm extractEntry test/filter.js
+169 silly gunzTarPerm extractEntry test/filter_sync.js
+170 silly gunzTarPerm extractEntry test/mock.js
+171 silly gunzTarPerm extractEntry test/faulty_basedir.js
+172 silly gunzTarPerm extractEntry test/resolver_sync.js
+173 silly gunzTarPerm extractEntry test/module_dir.js
+174 silly gunzTarPerm extractEntry test/resolver.js
+175 silly gunzTarPerm extractEntry test/precedence.js
+176 silly gunzTarPerm extractEntry test/nonstring.js
+177 silly gunzTarPerm extractEntry test/dotdot.js
+178 silly gunzTarPerm extractEntry test/pathfilter.js
+179 silly gunzTarPerm extractEntry test/mock_sync.js
+180 silly gunzTarPerm extractEntry test/subdirs.js
+181 silly gunzTarPerm extractEntry test/node_path.js
+182 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/main.js
+183 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/package.json
+184 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/alt.js
+185 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/ref.js
+186 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/deeper/ref.js
+187 silly gunzTarPerm extractEntry test/precedence/aaa.js
+188 silly gunzTarPerm extractEntry test/precedence/bbb.js
+189 silly gunzTarPerm extractEntry test/precedence/aaa/index.js
+190 silly gunzTarPerm extractEntry test/precedence/aaa/main.js
+191 silly gunzTarPerm extractEntry test/precedence/bbb/main.js
+192 silly gunzTarPerm extractEntry test/dotdot/index.js
+193 silly gunzTarPerm extractEntry test/dotdot/abc/index.js
+194 silly gunzTarPerm extractEntry test/resolver/foo.js
+195 silly gunzTarPerm extractEntry test/resolver/mug.js
+196 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+197 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+198 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+199 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+200 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+201 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+202 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+203 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+204 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+205 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+206 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+207 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+208 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+209 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+210 silly gunzTarPerm extractEntry test/resolver/punycode/node_modules/punycode/index.js
+211 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+212 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+213 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+214 silly gunzTarPerm extractEntry test/node_path/x/aaa/index.js
+215 silly gunzTarPerm extractEntry test/node_path/x/ccc/index.js
+216 silly gunzTarPerm extractEntry test/node_path/y/bbb/index.js
+217 silly gunzTarPerm extractEntry test/node_path/y/ccc/index.js
+218 silly gunzTarPerm extractEntry test/module_dir/xmodules/aaa/index.js
+219 silly gunzTarPerm extractEntry test/module_dir/ymodules/aaa/index.js
+220 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/package.json
+221 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/main.js
+222 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/package.json
+223 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/b/c/x.json
+224 verbose write writing to /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve/package.json
+225 info preinstall resolve@1.1.7
+226 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve/package.json
+227 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve/package.json
+228 silly install resolved []
+229 verbose about to build /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+230 info build /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+231 info linkStuff resolve@1.1.7
+232 silly linkStuff resolve@1.1.7 has /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules as its parent node_modules
+233 verbose linkBins resolve@1.1.7
+234 verbose linkMans resolve@1.1.7
+235 verbose rebuildBundles resolve@1.1.7
+236 info install resolve@1.1.7
+237 info postinstall resolve@1.1.7
+238 verbose unlock done using /home/ubuntu/.npm/_locks/resolve-a0f0ee5157e2ee78.lock for /home/ubuntu/workspace/node_modules/babelrc-rollup/node_modules/resolve
+239 verbose about to build /home/ubuntu/workspace/node_modules/babelrc-rollup
+240 info build /home/ubuntu/workspace/node_modules/babelrc-rollup
+241 info linkStuff babelrc-rollup@3.0.0
+242 silly linkStuff babelrc-rollup@3.0.0 has /home/ubuntu/workspace/node_modules as its parent node_modules
+243 verbose linkBins babelrc-rollup@3.0.0
+244 verbose linkMans babelrc-rollup@3.0.0
+245 verbose rebuildBundles babelrc-rollup@3.0.0
+246 verbose rebuildBundles [ 'resolve' ]
+247 info install babelrc-rollup@3.0.0
+248 info postinstall babelrc-rollup@3.0.0
+249 verbose unlock done using /home/ubuntu/.npm/_locks/babelrc-rollup-1a1dbde6341d414d.lock for /home/ubuntu/workspace/node_modules/babelrc-rollup
+250 verbose validateInstall loading /home/ubuntu/workspace/package.json for validation
+251 verbose stack Error: The package react@0.11.2 does not satisfy its siblings' peerDependencies requirements!
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/lib/install.js:125:32
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/lib/install.js:268:7
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+251 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+251 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+251 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+251 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.5/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+252 verbose cwd /home/ubuntu/workspace
+253 error Linux 4.2.0-c9
+254 error argv "/home/ubuntu/.nvm/versions/node/v4.4.5/bin/node" "/home/ubuntu/.nvm/versions/node/v4.4.5/bin/npm" "install" "--save-dev" "babelrc-rollup"
+255 error node v4.4.5
+256 error npm  v2.15.5
+257 error code EPEERINVALID
+258 error peerinvalid The package react@0.11.2 does not satisfy its siblings' peerDependencies requirements!
+258 error peerinvalid Peer react-dom@15.3.1 wants react@^15.3.1
+259 verbose exit [ 1, true ]
